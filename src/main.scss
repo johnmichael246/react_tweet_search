@@ -1,0 +1,29 @@
+@import 'rootStyles';
+.tag {
+  background-color: $tag-background-color;
+  border: none;
+  color: $tag-font-color;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.padded {
+  padding: 15px;
+}
+
+.link {
+  color: $tag-font-color
+}
+
+.title-font {
+  color: #3c515a
+}
+
+h4.clear {
+  margin: 0px
+}

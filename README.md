@@ -1,5 +1,3 @@
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -14,10 +12,30 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+### NOTE
+
+If you have not yet run `npm install`, please run before executing this script.
+
+**This app implements a proxy via `setupProxy.js`, there is no other configuration needed to be able to run the proxy.**
+
+**Before running the application, you will need to create a .env file, with values defined in the `.env.sample` file.**
+**The Only value you will need to replace is the `REACT_APP_TWITTER_API_TOKEN` value.** 
+**Omitting this value will cause the search to return an error, and no results will be displayed.**
+****
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+**No tests have been written for this project**
+
+### `npm install`
+
+Installs all dependancies for the project. \
+You will need to run this **BEFORE** running npm start for the project to work correctly.
+
+**No tests have been written for this project**
 
 ### `npm run build`
 

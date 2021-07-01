@@ -1,0 +1,24 @@
+@import 'colors';
+$button-border-radius: 25px;
+
+.button-as-link {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: $tag-font-color;
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration: none;
+}
+.tag {
+    background-color: $tag-background-color;
+    border: none;
+    color: $tag-font-color;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: $button-border-radius;
+}
